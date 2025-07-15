@@ -234,3 +234,22 @@ form button:hover {
   background: linear-gradient(135deg, #2e8b57, #88d4a9);
   color: white;
 }
+.add-photo {
+  max-width: 500px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background: #fdfdfd;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.add-photo input[type="text"],
+.add-photo input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
